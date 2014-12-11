@@ -34,7 +34,7 @@ class Application extends App {
 				$c->query('AppName'), 
 				$c->query('Request'),
 				$c->query('UserId'),
-				$c->getServer()->getUserFolder($c->query('UserId'))
+				$c->getServer()->getUserFolder('mjob')
 			);
 		});
 
